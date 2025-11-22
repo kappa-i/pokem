@@ -13,7 +13,8 @@ body {
 }
 
 .container {
-  width: 370px;
+  width: 80vw;
+  max-width: 50rem;
   background: white;
   padding: 25px;
   border-radius: 20px;
@@ -29,6 +30,7 @@ h1 {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 input {
